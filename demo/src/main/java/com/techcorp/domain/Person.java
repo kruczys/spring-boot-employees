@@ -6,7 +6,7 @@ public class Person {
     private String email;
     private String company;
 
-    public Person {
+    public Person() {
         System.out.println("Person constructor " + this);
     }
 
@@ -54,8 +54,8 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "name='" + name + '\'' +
-                ", yob=" + yob +
+                "firstName='" + firstName +
+                ", lastName=" + lastName + ", email=" + email + ", company=" + company +
                 '}';
     }
 }
